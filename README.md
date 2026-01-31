@@ -157,19 +157,44 @@ health_and_beauty_web/
 
 ## 🎯 Target Keywords
 
-### Primary Keywords
+### Primary Keywords (Bosnian)
+- **nokti** - Nails
+- **hidzama** - Nail polish
+- **masaza** - Massage
+- **tretman lica** - Facial treatment
+- **ciscenje lica** - Facial cleansing
+- **brow lift** - Brow lift
+- **lash lift** - Lash lift
+- **nadogradnja trepavica** - Eyelash extensions
+- **sminkanje** - Makeup
+- **depilacija** - Hair removal
+- **kozmeticki salon** - Beauty salon
+- **wellness** - Wellness
+- **manikir** - Manicure
+- **pedikir** - Pedicure
+
+### Long-tail Keywords (Bosnian)
+- Profesionalni tretmani lica
+- Brow lift Cazin
+- Lash lift Cazin
+- Nadogradnja trepavica Cazin
+- Sminkanje Cazin
+- Depilacija Cazin
+- Relaksirajuće masaze
+- Premium manikir i pedikir
+- Kozmetički salon Cazin
+- Wellness centar
+- Hidzama noktiju
+- Čišćenje lica Cazin
+- Masaze Cazin
+- Beauty salon Cazin
+
+### English Keywords (for international reach)
 - Health and beauty
 - Facial treatments
 - Wellness therapy
 - Natural beauty
 - Spa services
-
-### Long-tail Keywords
-- Professional beauty treatments
-- Organic beauty products
-- Holistic wellness treatments
-- Premium health services
-- Beauty salon wellness center
 
 ## 📞 Support & Maintenance
 
@@ -182,6 +207,42 @@ health_and_beauty_web/
 - **Google Search Console**: Monitor search performance
 - **Google Analytics**: Track user behavior and conversions
 - **PageSpeed Insights**: Monitor performance metrics
+
+## 🌍 Multi-Language Approach
+
+### Creating Both English and Bosnian Versions
+
+To create a bilingual website with both English and Bosnian versions, here are the recommended approaches:
+
+#### Option 1: Separate Files (Recommended for SEO)
+- **index.html** - Bosnian version (current)
+- **index-en.html** - English version
+- **robots.txt** - Include both URLs
+- **sitemap.xml** - Include both language versions
+
+#### Option 2: Language Switcher
+- Add a language toggle button in the navigation
+- Use JavaScript to switch content dynamically
+- Implement proper hreflang tags for SEO
+
+#### Option 3: Subdomain Approach
+- **bs.healthandbeautycazin.com** - Bosnian version
+- **en.healthandbeautycazin.com** - English version
+- **healthandbeautycazin.com** - Default (Bosnian)
+
+### SEO Implementation for Multi-Language
+```html
+<!-- Add to both language versions -->
+<link rel="alternate" hreflang="bs" href="https://healthandbeautycazin.com/" />
+<link rel="alternate" hreflang="en" href="https://healthandbeautycazin.com/en/" />
+<link rel="alternate" hreflang="x-default" href="https://healthandbeautycazin.com/" />
+```
+
+### Content Strategy
+- **Bosnian**: Target local audience, use local keywords (nokti, hidzama, masaza, Cazin)
+- **English**: Target international audience, use English keywords (facial, wellness, spa)
+- **Local SEO**: Focus on Cazin, Bosnia and Herzegovina for Bosnian version
+- **International SEO**: Focus on wellness and beauty industry for English version
 
 ## 📄 License
 
