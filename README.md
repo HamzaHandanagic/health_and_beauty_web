@@ -1,6 +1,6 @@
 # Health&Beauty Cazin Website
 
-Modern, responsive one-page website for **Health&Beauty Cazin**, built with HTML, Tailwind CSS (CDN), and vanilla JavaScript.
+Modern, responsive one-page website for **Health&Beauty Cazin**, built with HTML, Tailwind CSS (precompiled), and vanilla JavaScript.
 
 ## Project Overview
 
@@ -83,9 +83,20 @@ Additional SEO/legal page:
 ## Tech Stack
 
 - HTML5
-- Tailwind CSS (CDN)
+- Tailwind CSS 3, compiled to `assets/css/tailwind.css`
 - Font Awesome
-- Vanilla JavaScript (no build step)
+- Vanilla JavaScript
+
+## Building the stylesheet
+
+The pages link a precompiled, purged Tailwind stylesheet instead of the runtime CDN. After adding or changing Tailwind classes in `index.html` or `uvjeti-koristenja.html`, rebuild it:
+
+```bash
+npm install
+npm run build:css
+```
+
+`npm run watch:css` rebuilds on every save while editing.
 
 ## Project Files
 
