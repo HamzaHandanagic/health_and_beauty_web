@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400" role="img" aria-label="Health&amp;Beauty Cazin">
+<g id="hb-mark">
+  <!-- centre petal (deep magenta) -->
+  <path fill="#C2185B" d="M200 372 C158 300 136 172 200 48 C264 172 242 300 200 372 Z"/>
+  <!-- back side petals (crimson pink) -->
+  <path fill="#E0287A" d="M200 372 C150 335 95 245 118 92 C165 140 196 230 200 372 Z"/>
+  <path fill="#E0287A" d="M200 372 C250 335 305 245 282 92 C235 140 204 230 200 372 Z"/>
+  <!-- outer petals (light pink) -->
+  <path fill="#F9A8C9" d="M200 378 C118 362 40 292 62 148 C118 170 176 236 200 378 Z"/>
+  <path fill="#F9A8C9" d="M200 378 C282 362 360 292 338 148 C282 170 224 236 200 378 Z"/>
+  <!-- mid petals (hot pink) -->
+  <path fill="#F06292" d="M200 378 C150 345 92 255 110 118 C160 160 196 250 200 378 Z"/>
+  <path fill="#F06292" d="M200 378 C250 345 308 255 290 118 C240 160 204 250 200 378 Z"/>
+</g>
+</svg>
