@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap location
-Sitemap: https://healthandbeautycazin.com/sitemap.xml
+Sitemap: https://healthandbeauty.ba/sitemap.xml
 
 # Crawl delay (optional)
 Crawl-delay: 1

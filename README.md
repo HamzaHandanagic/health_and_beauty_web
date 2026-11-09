@@ -84,7 +84,7 @@ Additional SEO/legal page:
 
 - HTML5
 - Tailwind CSS 3, compiled to `assets/css/tailwind.css`
-- Font Awesome
+- Inline SVG icons (Font Awesome Free 6.0.0 paths, sprite at top of `<body>`; no icon font or CDN)
 - Vanilla JavaScript
 
 ## Building the stylesheet
