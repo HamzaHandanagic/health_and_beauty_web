@@ -89,7 +89,7 @@ Additional SEO/legal page:
 
 ## Building the stylesheet
 
-The pages link a precompiled, purged Tailwind stylesheet instead of the runtime CDN. After adding or changing Tailwind classes in `index.html` or `uvjeti-koristenja.html`, rebuild it:
+The pages link a precompiled, purged Tailwind stylesheet instead of the runtime CDN. After adding or changing Tailwind classes in any `*.html` file, rebuild it:
 
 ```bash
 npm install
@@ -97,6 +97,17 @@ npm run build:css
 ```
 
 `npm run watch:css` rebuilds on every save while editing.
+
+## Service landing pages
+
+`masaza.html`, `nokti.html` and `ciscenje-lica.html` are generated. Edit the content (texts, prices, FAQ, images) in `src/build-pages.js`, then run:
+
+```bash
+npm run build:pages
+npm run build:css
+```
+
+Do not edit those three HTML files by hand; the next build would overwrite the changes.
 
 ## Project Files
 

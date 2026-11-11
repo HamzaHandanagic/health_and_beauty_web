@@ -5,9 +5,27 @@
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>https://healthandbeauty.ba/</loc>
-        <lastmod>2026-11-09</lastmod>
+        <lastmod>2026-11-10</lastmod>
         <changefreq>weekly</changefreq>
         <priority>1.0</priority>
+    </url>
+    <url>
+        <loc>https://healthandbeauty.ba/masaza.html</loc>
+        <lastmod>2026-11-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://healthandbeauty.ba/nokti.html</loc>
+        <lastmod>2026-11-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://healthandbeauty.ba/ciscenje-lica.html</loc>
+        <lastmod>2026-11-10</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>
     <url>
         <loc>https://healthandbeauty.ba/uvjeti-koristenja.html</loc>

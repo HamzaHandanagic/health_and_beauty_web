@@ -3,6 +3,8 @@
 # Force HTTPS and the bare domain (https://healthandbeauty.ba/), matching the canonical URLs
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    # Leave certificate-validation requests (AutoSSL / Let's Encrypt) alone
+    RewriteCond %{REQUEST_URI} !^/\.well-known/ [NC]
     RewriteCond %{HTTPS} off [OR]
     RewriteCond %{HTTP_HOST} ^www\. [NC]
     RewriteRule ^ https://healthandbeauty.ba%{REQUEST_URI} [L,R=301]

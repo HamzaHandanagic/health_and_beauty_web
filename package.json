@@ -2,6 +2,7 @@
   "name": "health-and-beauty-web",
   "private": true,
   "scripts": {
+    "build:pages": "node src/build-pages.js",
     "build:css": "tailwindcss -i src/tailwind.css -o assets/css/tailwind.css --minify",
     "watch:css": "tailwindcss -i src/tailwind.css -o assets/css/tailwind.css --watch"
   },
